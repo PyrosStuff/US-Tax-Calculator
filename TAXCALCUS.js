@@ -3,10 +3,10 @@ println("COUNTIES");
 println("1: Florida");
 println("2: Georgia");
 println("3: Tennesee");
-println("4: South Carolina);
-println("5: North Carolina);
-println("6: Alabama);
-println("7: Mississippi);
+println("4: South Carolina");
+println("5: North Carolina");
+println("6: Alabama");
+println("7: Mississippi");
 var tax = 0
 var state = readInt("Please enter your state number: ");
 if (state = 1){
