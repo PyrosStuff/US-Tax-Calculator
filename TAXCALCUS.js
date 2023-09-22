@@ -12,29 +12,29 @@ var state = readInt("Please enter your state number: ");
 if (state = 1){
     println("You have selected: Florida.");
     var flcounty = 0
-
+    flcounty = readInt("Select your county.");
 } else if (state = 2){
     println("You have selected: Georgia.");
-    var flcounty = 0
-    if ()
+    var gacounty = 0
+    gacounty = readInt("Select your county.");
 } else if (state = 3){
     println("You have selected: Tennessee.");
-    var flcounty = 0
-
+    var tncounty = 0
+    tncounty = readInt("Select your county.");
 } else if (state = 4){
     println("You have selected: South Carolina.");
-    var flcounty = 0
-
+    var sccounty = 0
+    sccounty = readInt("Select your county.");
 } else if (state = 5){
     println("You have selected: North Carolina.");
-    var flcounty = 0
-
+    var nccounty = 0
+    nccounty = readInt("Select your county.");
 } else if (state = 6){
     println("You have selected: Alabama.");
-    var flcounty = 0
-
+    var alcounty = 0
+    alcounth = readInt("Select your county.");
 } else if (state = 7){
     println("You have selected: Mississippi.");
-    var flcounty = 0
-
+    var mscounty = 0
+    mscounty = readInt("Select your county.");
 }
