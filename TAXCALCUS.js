@@ -7,6 +7,6 @@ var tax = 0
 var state = readInt("Please enter your state number: ");
 if (state = 1){
     println("You have selected: Florida.");
-    var
+    var flcounty = 0
     if ()
 }
