@@ -1,5 +1,5 @@
 println("Welcome to the US sales tax calculator!");
-println("COUNTIES");
+println("STATES");
 println("1: Florida");
 println("2: Georgia");
 println("3: Tennesee");
