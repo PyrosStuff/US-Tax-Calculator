@@ -1,5 +1,5 @@
 print("Welcome to the US sales tax calculator!")
-print("COUNTIES")
+print("STATES")
 print("1: Florida")
 print("2: Georgia")
 print("3: Tennesee")
@@ -7,6 +7,11 @@ print("4: South Carolina")
 print("5: North Carolina")
 print("6: Alabama")
 print("7: Mississippi")
+print("8: Virginia")
+print("9: West Virginia")
+print("10: Louisiana")
+print("11: Arkansas")
+print("12: Kentucky")
 tax = 0
 state = 0
 state = int(input("Please enter your state number: "))
@@ -38,3 +43,23 @@ elif state == 7:
     print("You have selected: Mississippi.")
     mscounty = 0
     mscounty = int(input("Select your county. "))
+elif state == 8:
+    print("You have selected: Virginia.")
+    vicounty = 0
+    vicounty = int(input("Select your county. "))
+elif state == 9:
+    print("You have selected: West Virginia.")
+    wvcounty = 0
+    wvcounty = int(input("Select your county. "))
+elif state == 10:
+    print("You have selected: Louisiana.")
+    locounty = 0
+    mscounty = int(input("Select your county. "))
+elif state == 11:
+    print("You have selected: Arkansas.")
+    arcounty = 0
+    arcounty = int(input("Select your county. "))
+elif state == 12:
+    print("You have selected: Kentucky.")
+    kecounty = 0
+    kecounty = int(input("Select your county. "))
