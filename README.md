@@ -1,7 +1,5 @@
 # US-Tax-Calculator
 
-### Currently the JavaScript code only works in CodeHS.
-
 Calculates sales tax by state then counties.
 If you are developing this project this next line is VERY IMPORTANT!
 
