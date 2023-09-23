@@ -1,3 +1,11 @@
+// Variables
+
+var println = console.log
+var readInt = parseInt
+var tax = 0
+var state = 0
+
+// Code Begins 
 println("Welcome to the US sales tax calculator!");
 println("STATES");
 println("1: Florida");
@@ -7,8 +15,6 @@ println("4: South Carolina");
 println("5: North Carolina");
 println("6: Alabama");
 println("7: Mississippi");
-var tax = 0
-var state = 0
 state = readInt("Please enter your state number: ");
 if (state == 1){
     println("You have selected: Florida.");
