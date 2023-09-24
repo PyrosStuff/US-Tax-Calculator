@@ -19,15 +19,16 @@ if state == 1:
     print("You have selected: Florida.")
     flcounty = 0
     print("County group 1: Alucha, Bay, Bradford, Calhoun, Clay, Collier, Columbia, Desoto, Duval, Escambia, Franklin, Gadsden, Gilchrist, Glades, Gulf, Hamilton, Hardee, Hendry, Highlands, Hillsborough, Holmes, Jackson, Jefferson, Lafayette, Lee, Leon, Levy, Liberty, Madison, Marion, Monroe, Nassau, Okeechobee, Orange, Osceola, Pasco, Pinellas, Polk, Putnam, Santa Rosa, Saint Johns, Suwannee, Wakulla, Walton, Washington")
+    print("County group 2: Baker, Brevard, Broward, Charlotte, Dixie, Flagler, Hernando, Indian River, Lake, Manatee, Martin, Miami-Dade, Okaloosa, Palm Beach, Sarasota, Seminole, Saint Lucy, Sumter, Taylor, Union, Volusia")
     flcounty = int(input("Select your county group. "))
     if flcounty == 1:
-        print("You have selcted county group: 1")
+        print("You have selected county group: 1. Your tax rate is: 7.5%")
         tax == .075
     elif flcounty == 2:
-        print("You have selected county group: 2")
+        print("You have selected county group: 2. Your tax rate is: 7%")
         tax == .07
     elif flcounty == 3:
-        print("You have selected county group: 3")
+        print("You have selected county group: 3. Your tax rate is: 6.5%")
         tax == .065
 elif state == 2:
     print("You have selected: Georgia.")
