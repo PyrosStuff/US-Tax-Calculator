@@ -1,4 +1,0 @@
-function start{
-console.warn("Remember to save all work before using!");
-var detonate = parseInt(prompt("1 to launch, 0 to cancel");
-}
